@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+    </head>
+    <body bgcolor="Fuchsia">
+        <center>
+        <form>
+            <div>
+                <span style=color:cream><b><h1>Login Form</h1></b></span>
+            </div><br>
+            <label for="UN">Username: </label>
+            <input type="text" name="username" id="UN" placeholder="Enter Username"><br><br>
+            <label for="pwd">Password: </label>
+            <!-- <input type="text" name="password" id="pwd" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&*])(?=.*[0-9])[A-Z]{1}[a-z!@#$%^&*0-9]{,10}" title="Enter uppercase, lowercase, special character, numbers, enter only 10" placeholder="Enter Password"><br><br>  -->
+            <input type="text" name="password" id="pwd" pattern="[A-Z][a-z0-9!@#$%^&*]{5}" title="Enter uppercase, lowercase, special character, numbers, enter only 10" placeholder="Enter Password"><br><br> 
+            <a href="password.html">Forgot Password</a><br><br> 
+            <input type="submit" formaction="main.html" value="Login">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="submit" formaction="signup.html" value="Signup">
+        </form>
+        </center>
+    </body>
+</html>

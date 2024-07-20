@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Signup</title>
+    </head>
+    <body bgcolor="pink">
+        <form>
+        <center>
+        <h1>Signup</h1>
+        <label for="FN">First Name: </label>
+        <input type="text" id="FN" placeholder="Your Firstname" name="firstname" required><br><br>
+        <label for="LN">Last Name: </label>
+        <input type="text" name="lastname" id="LN" placeholder="Your Lastname"required><br><br>
+        <label for="mail">Email id: </label>
+        <input type="email" name="email" id="mail" placeholder="Your Email" required><br><br>
+        <label for="number">Phone Number: </label>
+        <input type="number" name="number" id="number" placeholder="Enter Phonenumber" required><br><br>
+        <label>Password: </label>
+        <input type="text" placeholder="Password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&*])(?=.*[0-9])[A-Z][a-z0-9!@#$%^&*]{5}" title="Enter uppercase, lowercase, special character, numbers, enter only 5"><br><br>
+        <label>Confirm Password: </label>
+        <input type="text" placeholder="Confirm Password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&*])(?=.*[0-9])[A-Z][a-z0-9!@#$%^&*]{5}" title="Enter uppercase, lowercase, special character, numbers, enter only 5"><br><br>
+        <label for="resume">Upload resume</label>
+        <input type="file" id="resume" required><br><br>
+        <input type="submit" formaction="login.html" value="Signup">
+        </center> 
+        </form>
+    </body>
+</html>
